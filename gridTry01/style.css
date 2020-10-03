@@ -8,7 +8,7 @@
   background: lightcoral;
   width: 90%;
   display: grid;
-  grid-gap: 20px;
+  grid-gap: 8px;
   grid-template-columns: repeat(3, 1fr);
   margin: 30px auto 0 auto;
 }
@@ -16,7 +16,7 @@
 .items {
   border: 2px transparent solid;
   border-radius: 5px;
-  height: 200px;
+  height: 100px;
   color: brown;
 }
 
@@ -40,8 +40,10 @@
 
 .item5 {
   background: coral;
+  grid-column: 1 / -1;
 }
 
 .item6 {
   background: coral;
+  grid-column: 1 / -1;
 }
