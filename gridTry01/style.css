@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background: lightcoral;
+  width: 90%;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 30px auto 0 auto;
+}
+
+.items {
+  border: 2px transparent solid;
+  border-radius: 5px;
+  height: 200px;
+  color: brown;
+}
+
+.item1 {
+  background: coral;
+  grid-column: 1 / 3;
+}
+
+.item2 {
+  background: coral;
+}
+
+.item3 {
+  background: coral;
+}
+
+.item4 {
+  background: coral;
+  grid-column: 2 / -1;
+}
+
+.item5 {
+  background: coral;
+}
+
+.item6 {
+  background: coral;
+}
